@@ -13,12 +13,12 @@ use Spryker\Glue\GlueApplication\Rest\Request\Data\RestRequestInterface;
 class ProductsProductTaxSetsResourceRelationshipToTaxSetsRestApiResourceBridge implements ProductsProductTaxSetsResourceRelationshipToTaxSetsRestApiResourceInterface
 {
     /**
-     * @var \Spryker\Glue\TaxSetsRestApi\TaxSetsRestApiResourceInterface
+     * @var \Spryker\Glue\ProductTaxSetsRestApi\ProductTaxSetsRestApiResourceInterface
      */
     protected $taxSetsRestApiResource;
 
     /**
-     * @param \Spryker\Glue\TaxSetsRestApi\TaxSetsRestApiResourceInterface $taxSetsRestApiResource
+     * @param \Spryker\Glue\ProductTaxSetsRestApi\ProductTaxSetsRestApiResourceInterface $taxSetsRestApiResource
      */
     public function __construct($taxSetsRestApiResource)
     {
