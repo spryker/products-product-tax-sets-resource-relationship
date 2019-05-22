@@ -4,6 +4,7 @@
 
 ProductsProductTaxSetsResourceRelationship module provides relation between products and product tax sets.
 
+**This module is not continued at this point.**
 
 ## Installation
 
